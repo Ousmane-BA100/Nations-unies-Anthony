@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to LVMH-sephora documentation! &mdash; LVMH-sephora 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=2709fde1"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Usage" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            LVMH-sephora
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">LVMH-sephora</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to LVMH-sephora documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-lvmh-sephora-documentation">
+<h1>Welcome to LVMH-sephora documentation!<a class="headerlink" href="#welcome-to-lvmh-sephora-documentation" title="Link to this heading"></a></h1>
+<p># API LVMH Sephora</p>
+<p>L’API LVMH Sephora est une interface de programmation permettant d’interagir avec la base de données de Sephora, une société de produits de beauté et de parfumerie appartenant au groupe LVMH.</p>
+<p><strong>Ici je tiens à souligner que cette base de données est avant tout fictive, car inventée par mes propres soins,
+dans le cadre du cours de Base de Données Avancées que je dispense en Master 1 Data Engineer.</strong></p>
+<p>l’objectif de ce cours était triple :</p>
+<ul class="simple">
+<li><p>Faire du postgreSQL en utilisant des mécanimses d’optimisations de requêtes et aborder la notion des extensions</p></li>
+<li><p>Mettre en place une api qui interagit avec cette base de données, dans le but d’emmener les étudiants à appréhender en profondeur la nécessité</p></li>
+</ul>
+<p>d’une bonne modélisation avec UML dans le respect des normes de l’industrie du génie logiciel
+- enfin, de mieux maîtriser les notions de roles, users et privilèges dans la manipulation d’une base de données ainsi que leurs impactes au sein d’une application</p>
+<p>Pour notre API, avons utilisé :</p>
+<ul class="simple">
+<li><p>le patron de conception DAO</p></li>
+<li><p>le langage python</p></li>
+<li><p>2 exemples de framework comme point d’accès : Flask (dont les routes sort reprises ci-dessous) et Fast (repris dans sa doc automatique)</p></li>
+<li><p>une base d données postgreSQL sur supabase</p></li>
+<li><p>connecté la bd supabase sur le client pgAdmin</p></li>
+<li><p>Et enfin nous avons généré une documentation grace à <a class="reference external" href="https://readthedocs.org/">https://readthedocs.org/</a></p></li>
+</ul>
+<p>Check out the <a class="reference internal" href="usage.html"><span class="doc">Usage</span></a> section for further information, including
+how to <a class="reference internal" href="usage.html#installation"><span class="std std-ref">utilisation</span></a> the project.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is well done.</p>
+</div>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#utilisation">utilisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#fonctionnalites-principales-pour-flaskapi">Fonctionnalités principales pour FlaskAPI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#fonctionnalites-principales-pour-fastapi">Fonctionnalités principales pour FastAPI</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, MULAPI.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
